@@ -20,7 +20,7 @@
   "jobTitle": "PhD Candidate, Graduate Research and Teaching Fellow",
   "affiliation": {"@type": "CollegeOrUniversity", "name": "Deakin University"},
   "address": {"@type": "PostalAddress", "addressLocality": "Melbourne", "addressCountry": "AU"},
-  "knowsAbout": ["Federated learning", "Trustworthy AI", "Adversarial robustness", "Privacy", "Blockchain"],
+  "knowsAbout": ["Federated learning", "Agentic AI", "Trustworthy AI", "Adversarial robustness", "Privacy", "Blockchain"],
   "sameAs": [
     "https://www.linkedin.com/in/md-mamunur-r-5a6a46115/",
     "https://github.com/mamunurrashidete88",
@@ -174,6 +174,7 @@
   .pub-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; margin-top: 0.35rem; font-family: var(--sans); font-size: 0.88rem; align-items: center; }
   .badge { font-family: var(--sans); font-style: normal; font-size: 0.8rem; font-weight: 700; padding: 0.1rem 0.5rem; border-radius: 4px; background: var(--trust); color: #fff; }
   .badge.review { background: transparent; color: var(--flag-ink); border: 1px solid var(--flag); }
+  .pub-metric { color: var(--muted); }
   .copy-btn { font: inherit; background: none; border: none; padding: 0; color: var(--link); cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; }
   .pubgroup[hidden] { display: none; }
 
@@ -290,7 +291,7 @@
       <div>
         <h1><span>Md Mamunur</span><span>Rashid</span></h1>
         <p class="role">PhD candidate in Information Technology and Graduate Research &amp; Teaching Fellow, Deakin University, Melbourne</p>
-        <p class="lede">I study how federated learning can stay trustworthy when participnats training a model together can be unreliable, malicious, or curious about others’ data.</p>
+        <p class="lede">I study how federated learning can stay trustworthy when participants training a model together can be unreliable, malicious, or curious about others’ data.</p>
         <ul class="links">
           <li><a class="primary" href="#publications">Publications</a></li>
           <li><a href="https://scholar.google.com/citations?user=qlp5lSkAAAAJ&amp;hl=en">
@@ -347,6 +348,7 @@
         <p>I’m a PhD candidate at Deakin University’s School of Information Technology, supervised by Prof. Yong Xiang, Dr. Md Palash Uddin, and Dr. Keshav Sood. My thesis, <em>Enhancing Security and Trust in Federated Learning</em>, develops ways for distributed AI systems to keep learning when some participants can’t be trusted: reputation and incentive mechanisms that keep collaboration fair, methods that detect, isolate and recover anomalous clients, and analyses of how much privacy a model leaks as it grows.</p>
         <p>I came to research from industry. For 9.5 years I worked at Robi Axiata, a multinational telecom operator in Bangladesh, moving from first-line support for radio, core and IP networks to managing technology operations. We also built AI and RPA tools that ran in production. Before Deakin, I completed a Master of Engineering (MEng) in AI Convergence at Pukyong National University (PKNU) in Busan, South Korea. At PKNU, I worked on blockchain-enabled federated learning for IoT intrusion detection.</p>
         <ul class="recent" aria-label="Recent highlights">
+          <li><span class="yr">2026</span><span>Survey on security and trust in federated agentic AI published in <strong>Computer Science Review</strong>.</span></li>
           <li><span class="yr">2026</span><span>“Privacy Risk Scales with Effective Dimension in Federated Learning” accepted at <strong>NeurIPS 2026</strong>.</span></li>
           <li><span class="yr">2026</span><span>TAFL, on detecting, isolating and recovering anomalous clients, published in <strong>IEEE Transactions on Information Forensics and Security</strong>.</span></li>
           <li><span class="yr">2026</span><span>Invited to review for <strong>USENIX Security 2027</strong>.</span></li>
@@ -368,12 +370,12 @@
           <article class="theme">
             <h3>Who should the server trust?</h3>
             <p>Reputation-based consensus and adaptive incentives that reward honest contribution, and identity schemes that resist Sybil attackers who create many fake clients or lie dormant before striking.</p>
-            <p class="refs">See <a href="#J1">J1</a>, <a href="#M1">M1</a>, <a href="#M3">M3</a></p>
+            <p class="refs">See <a href="#J1">J1</a>, <a href="#J2">J2</a>, <a href="#M1">M1</a>, <a href="#M3">M3</a></p>
           </article>
           <article class="theme">
             <h3>What happens when clients misbehave?</h3>
             <p>Trust-aware aggregation that detects anomalous clients, isolates them, and lets them recover, and models that track each client’s behaviour across training sessions rather than one round at a time.</p>
-            <p class="refs">See <a href="#J2">J2</a>, <a href="#M2">M2</a></p>
+            <p class="refs">See <a href="#J3">J3</a>, <a href="#M2">M2</a></p>
           </article>
           <article class="theme">
             <h3>How much does a shared model leak?</h3>
@@ -388,17 +390,17 @@
             <li>
               <span class="meta">PKNU, Busan, 2021–2023</span>
               <strong>Blockchain-enabled federated learning for IoT</strong>
-              <p>Intrusion detection for Industrial IoT networks combining federated learning with blockchain and distributed storage. <a href="#J3">J3</a>, <a href="#C2">C2</a>, <a href="#C4">C4</a></p>
+              <p>Intrusion detection for Industrial IoT networks combining federated learning with blockchain and distributed storage. <a href="#J4">J4</a>, <a href="#C2">C2</a>, <a href="#C4">C4</a></p>
             </li>
             <li>
               <span class="meta">PKNU, Busan, 2021–2022</span>
               <strong>Deepfake detection and media integrity</strong>
-              <p>CNN, LSTM, GRU and Vision Transformer detectors in PyTorch, and blockchain-based protection of image and video integrity. <a href="#J5">J5</a>, <a href="#C6">C6</a></p>
+              <p>CNN, LSTM, GRU and Vision Transformer detectors in PyTorch, and blockchain-based protection of image and video integrity. <a href="#J6">J6</a>, <a href="#C6">C6</a></p>
             </li>
             <li>
               <span class="meta">PKNU, Busan, 2022</span>
               <strong>Blockchain for health</strong>
-              <p>Digital health passports and contact tracing for infectious diseases, and a healthcare supply chain built on smart contracts. <a href="#J4">J4</a>, <a href="#C3">C3</a></p>
+              <p>Digital health passports and contact tracing for infectious diseases, and a healthcare supply chain built on smart contracts. <a href="#J5">J5</a>, <a href="#C3">C3</a></p>
             </li>
             <li>
               <span class="meta">Robi Axiata, Dhaka, 2019–2020</span>
@@ -416,7 +418,7 @@
     <div class="wrap sec-head">
       <div>
         <h2>Publications</h2>
-        <p class="sub">5 journal articles, 6 conference papers, 3 manuscripts under review.</p>
+        <p class="sub">6 journal articles, 6 conference papers, 3 manuscripts under review.</p>
       </div>
       <div class="sec-body">
         <div class="filters" role="group" aria-label="Filter publications">
@@ -430,30 +432,36 @@
           <h3>Journal articles</h3>
           <ol class="publist">
             <li class="pub" id="J1"><span class="pub-id">J1</span><div>
+              <span class="pub-title">Security and Trust in Federated Agentic AI: A Survey of Architectures, Threats, Defenses, and Open Challenges</span>
+              <span class="pub-authors"><b>M. M. Rashid</b>, M. P. Uddin, Y. Xiang</span>
+              <span class="pub-venue">Computer Science Review, vol. 63, art. 101086, 2027</span>
+              <span class="pub-links"><a href="https://doi.org/10.1016/j.cosrev.2026.101086">DOI</a><button class="copy-btn" type="button" data-cite>Copy citation</button><span class="pub-metric">SCImago Q1, JCR Q1, 2025 JIF 17.5</span></span>
+            </div></li>
+            <li class="pub" id="J2"><span class="pub-id">J2</span><div>
               <span class="pub-title">Trustworthy and Fair Federated Learning via Reputation-Based Consensus and Adaptive Incentives</span>
               <span class="pub-authors"><b>M. M. Rashid</b>, Y. Xiang, M. P. Uddin, J. Tang, K. Sood, L. Gao</span>
               <span class="pub-venue">IEEE Transactions on Information Forensics and Security, vol. 20, pp. 2868–2882, 2025</span>
               <span class="pub-links"><a href="https://doi.org/10.1109/TIFS.2025.3546841">DOI</a><button class="copy-btn" type="button" data-cite>Copy citation</button></span>
             </div></li>
-            <li class="pub" id="J2"><span class="pub-id">J2</span><div>
+            <li class="pub" id="J3"><span class="pub-id">J3</span><div>
               <span class="pub-title">TAFL: Trust-Aware Federated Learning for Anomalous Client Detection, Isolation, and Recovery</span>
               <span class="pub-authors"><b>M. M. Rashid</b>, M. P. Uddin, Y. Xiang, K. Sood, Y. Zhang, L. Gao</span>
               <span class="pub-venue">IEEE Transactions on Information Forensics and Security, vol. 21, pp. 9202–9216, 2026</span>
               <span class="pub-links"><a href="https://doi.org/10.1109/TIFS.2026.3744607">DOI</a><button class="copy-btn" type="button" data-cite>Copy citation</button></span>
             </div></li>
-            <li class="pub" id="J3"><span class="pub-id">J3</span><div>
+            <li class="pub" id="J4"><span class="pub-id">J4</span><div>
               <span class="pub-title">A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks</span>
               <span class="pub-authors"><b>M. M. Rashid</b>, S. U. Khan, F. Eusufzai, M. A. Redwan, S. R. Sabuj, M. Elsharief</span>
               <span class="pub-venue">Network, vol. 3, no. 1, pp. 158–179, 2023</span>
               <span class="pub-links"><a href="https://doi.org/10.3390/network3010008">DOI</a><button class="copy-btn" type="button" data-cite>Copy citation</button></span>
             </div></li>
-            <li class="pub" id="J4"><span class="pub-id">J4</span><div>
+            <li class="pub" id="J5"><span class="pub-id">J5</span><div>
               <span class="pub-title">Block-HPCT: Blockchain Enabled Digital Health Passports and Contact Tracing of Infectious Diseases like COVID-19</span>
               <span class="pub-authors"><b>M. M. Rashid</b>, P. Choi, S.-H. Lee, K.-R. Kwon</span>
               <span class="pub-venue">Sensors, vol. 22, no. 11, art. 4256, 2022</span>
               <span class="pub-links"><a href="https://doi.org/10.3390/s22114256">DOI</a><button class="copy-btn" type="button" data-cite>Copy citation</button></span>
             </div></li>
-            <li class="pub" id="J5"><span class="pub-id">J5</span><div>
+            <li class="pub" id="J6"><span class="pub-id">J6</span><div>
               <span class="pub-title">Blockchain Technology for Combating Deepfake and Protect Video/Image Integrity</span>
               <span class="pub-authors"><b>M. M. Rashid</b>, S.-H. Lee, K.-R. Kwon</span>
               <span class="pub-venue">Journal of Korea Multimedia Society, vol. 24, no. 8, pp. 1044–1058, 2021</span>
